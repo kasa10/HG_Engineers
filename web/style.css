@@ -147,7 +147,7 @@ display: inline-block;
 }
 
 
-.block1 p{
+.txt1 {
   position: absolute;
   display: inline-block;
   text-align: center;
@@ -225,6 +225,10 @@ display: inline-block;
 }
 
 
-.txt1{
+.txt2 {
+    position: absolute;
     display: none;
+    text-align: center;
+    margin: 8% 0 0 15%;
+    horiz-align: left;
 }
