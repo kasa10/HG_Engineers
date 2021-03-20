@@ -223,3 +223,8 @@ display: inline-block;
 .marsh:hover {
     transform: scale(1.11);
 }
+
+
+.txt1{
+    display: none;
+}
