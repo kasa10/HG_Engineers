@@ -1,0 +1,21 @@
+.content{
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    top: 50%;
+    overflow: hidden;
+    
+}
+
+.content__text{
+    text-align: center;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 30px;
+}
+
+#city{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
