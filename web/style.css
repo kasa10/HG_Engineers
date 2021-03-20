@@ -66,8 +66,9 @@ display: inline-block;
 .logo img
 {
   display: inline-block;
-  width: 150px;
-  height: 80px;
+  width: 100px;
+  height: 90px;
+    border-radius: 5px;
 }
 
 
@@ -130,7 +131,13 @@ display: inline-block;
 .block1{
   position: relative;
   margin: 13% 0 0 15%;
+    transition: 0.8s;
 }
+
+.block1:hover{
+    transform: scale(1.1);
+}
+
 
 .img1{
   width: 120px;
@@ -203,3 +210,16 @@ display: inline-block;
 }
 
 
+
+.marsh{
+    border-radius: 5px;
+    position: relative;
+    margin-left: 13%;
+    width: 15%;
+    transition: 0.8s;
+}
+
+
+.marsh:hover {
+    transform: scale(1.11);
+}
